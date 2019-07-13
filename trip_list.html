@@ -16,7 +16,48 @@
 
     <div class="input_form">
         <form action="/action_page.php">
-            
+            <div class = airline_details>
+                <b>Airline:</b> <input type="text" name="airline"><br>
+                <b>Flight no:</b> <input type="text" name="Flight_num"><br>
+                <b>Origin:</b> <select name="Origin">
+                <option value="Male'">Male'</option>
+                <option value="Malaysia">Malaysia</option>
+                </select>
+                <b>Destination:</b> <select name="Destination">
+                <option value="Male'">Male'</option>
+               <option value="Malaysia">Malaysia</option>
+            </select>
+            </div>
+
+            <div class="dates_and_time">
+            <b>Date</b>
+            <input type="date"> <br>
+            <b>Time</b>
+            <input type="time"> <br>
+            <b>ETA Date</b>
+            <input type="date"> <br>
+            <b>ETA Time</b>
+            <input type="time"> <br>
+            </div>
+
+            <div class="Cargo_details">
+                <h2><b>What can you carry?</b></h2>
+                <input type="checkbox" Name="cargo" value="cargo"> Cargo - Max Weight: <input type="text" name="carryweight" >
+                 Price per Kg: Rf<input type="number" name="perKg" >
+                <br>
+                <input type="checkbox" Name="Money" value="Money">
+                 Money Comission per 100USD: USD<input type="number" name="perUSD" >
+            </div>
+
+            <div  class="delivery_details">
+                <h2><b>Pickup and Delivery</b></h2>
+                <form>
+                    <input type="checkbox" Name="pickup" value="pickup_rate"> 
+                    Pickup: Rf<input type="number" name="pickup_rate" >
+                    <input type="checkbox" Name="delivery" value="delivery_rate"> 
+                    Delivery: Rf<input type="number" name="delivery_rate" >
+                </form>
+            </div>
         </form>
     </div>
 </div>
