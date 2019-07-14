@@ -1,0 +1,19 @@
+body{
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.container{
+    display: grid;
+    background-color: rgba(42, 60, 91, 0.1);
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+.paras{
+    font-size: 1.5em;
+}
+
