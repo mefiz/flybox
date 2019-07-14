@@ -6,7 +6,7 @@ body {
 
 img{
   width: 25vw;
-  transform: translate(-1vw, -10vh); 
+  transform: translate(-1vw, -9vh); 
   border-radius: 10vw;
   padding-bottom: 10vw;
 }
@@ -27,4 +27,5 @@ img{
   .sub-title{
     transform: translate(25vw, -11vh);
   }
+  
 }
