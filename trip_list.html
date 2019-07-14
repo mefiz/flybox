@@ -1,69 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-<title>List your trip</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="/styles/index.css">
-    </head>
+<head>    
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <title>List your trip</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsenui.css">
+    <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsen-css-components.min.css">
+    <link rel="stylesheet" href="/styles/trip_list.css">
+  <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
+</head>
+
 <body>
-    <div class="container">
-    <h1>List your trip</h1>
-    <div class="get_image">
-        <form action="/action_page.php">
-        <input type="file" name="pic" accept="image/*">
-        <input type="submit">
-        </form>
-    </div>
-
-    <div class="input_form">
-        <form action="/action_page.php">
-            <div class = airline_details>
-                <b>Airline:</b> <input type="text" name="airline"><br>
-                <b>Flight no:</b> <input type="text" name="Flight_num"><br>
-                <b>Origin:</b> <select name="Origin">
-                <option value="Male'">Male'</option>
-                <option value="Malaysia">Malaysia</option>
-                </select>
-                <b>Destination:</b> <select name="Destination">
-                <option value="Male'">Male'</option>
-               <option value="Malaysia">Malaysia</option>
-            </select>
-            </div>
-
-            <div class="dates_and_time">
-            <b>Date</b>
-            <input type="date"> <br>
-            <b>Time</b>
-            <input type="time"> <br>
-            <b>ETA Date</b>
-            <input type="date"> <br>
-            <b>ETA Time</b>
-            <input type="time"> <br>
-            </div>
-
-            <div class="Cargo_details">
-                <h2><b>What can you carry?</b></h2>
-                <input type="checkbox" Name="cargo" value="cargo"> Cargo - Max Weight: <input type="text" name="carryweight" >
-                 Price per Kg: Rf<input type="number" name="perKg" >
-                <br>
-                <input type="checkbox" Name="Money" value="Money">
-                 Money Comission per 100USD: USD<input type="number" name="perUSD" >
-            </div>
-
-            <div  class="delivery_details">
-                <h2><b>Pickup and Delivery</b></h2>
-                <form>
-                    <input type="checkbox" Name="pickup" value="pickup_rate"> 
-                    Pickup: Rf<input type="number" name="pickup_rate" >
-                    <input type="checkbox" Name="delivery" value="delivery_rate"> 
-                    Delivery: Rf<input type="number" name="delivery_rate" >
-                </form>
-            </div>
-        </form>
-        <button type="submit">Confirm</button>
-    </div>
-</div>
+        <div style="height: 200px; padding: 1px 0 0 0;">
+                <div class="card">
+                  <div class="card__content"><h1>LIST YOUR FLIGHT</h1>
+                    <p class="paras"><input class="text-input text-input--material" placeholder="Airline" type="text" required></p>
+                    <p class="paras"><input class="text-input text-input--material" placeholder="Flight No." type="text" required></p>
+                    <p class="paras">Origin: <select class="select-input">
+                          <option>Male'</option>
+                          <option>Malaysia</option>
+                        </select>
+                         </p>
+                      <p class="paras">Destination: <select class="select-input">
+                          <option>Male'</option>
+                          <option>Malaysia</option>
+                          </select>
+                          </p>
+                          <div class="dates_and_time">
+                            <p class="paras">  
+                                  Date
+                                  <input type="date"> <br>
+                                  Time
+                                  <input type="time"> <br>
+                                  ETA Date
+                                  <input type="date"> <br>
+                                  ETA Time
+                                  <input type="time"> <br>
+                            </p>                                  
+                                  </div>  
+                                
+                                </div>
+                </div>
+              </div>
 </body>
 
 </html>
