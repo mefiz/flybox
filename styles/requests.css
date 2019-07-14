@@ -10,8 +10,8 @@ body {
 
 @media only screen and (max-width: 700px) {
     .section-shaped{
-        padding-top:10vw; 
-        padding-bottom:45%;
+        padding-top:40vw; 
+        padding-bottom:100%;
         padding-right: 10vw;
         padding-left: 10vw;
     }
