@@ -5,24 +5,18 @@ body {
 
 
 img{
-  width: 20vw;
-  transform: translate(2vw, -10vh); 
+  width: 25vw;
+  transform: translate(-1vw, -10vh); 
+  border-radius: 10vw;
+  padding-bottom: 10vw;
 }
 
-.logo-text{
-  font-family: 'Oswald', sans-serif;
-  font-size: 5em;
-  transform: translate(4vw, -13vh);
-}
-
-.sub-title{
-  transform: translate(7vw, -19vh);
-}
 
 @media only screen and (max-width: 700px) {
   img {
     width: 60vw;
-  transform: translate(8vw, -5vh); 
+  transform: translate(5vw, -5vh);
+  padding-bottom: 30vw; 
   }
   .logo-text{
     font-family: 'Oswald', sans-serif;

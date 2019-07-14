@@ -16324,7 +16324,7 @@ a.btn-icon-only
 
 .profile-page .card-profile
 {
-    margin-top: -150px;
+    margin-top: -400px;
 }
 .profile-page .card-profile .card-profile-image
 {
@@ -16382,14 +16382,14 @@ a.btn-icon-only
 {
     .profile-page .card-profile .card-profile-actions
     {
-        margin-top: 110px;
+        margin-top: 10px;
     }
 }
 @media (min-width: 576px) and (max-width: 991.98px)
 {
     .profile-page .card-profile .card-profile-stats
     {
-        margin-top: 30px;
+        margin-top: 10px;
     }
 }
 
