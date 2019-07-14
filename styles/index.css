@@ -1,3 +1,36 @@
 body {
     background-image: url("/images/background.jpg");
   }
+
+
+
+img{
+  width: 20vw;
+  transform: translate(2vw, -10vh); 
+}
+
+.logo-text{
+  font-family: 'Oswald', sans-serif;
+  font-size: 5em;
+  transform: translate(4vw, -13vh);
+}
+
+.sub-title{
+  transform: translate(7vw, -19vh);
+}
+
+@media only screen and (max-width: 700px) {
+  img {
+    width: 60vw;
+  transform: translate(8vw, -5vh); 
+  }
+  .logo-text{
+    font-family: 'Oswald', sans-serif;
+    font-size: 5em;
+    transform: translate(20vw, -5vh);
+  }
+  
+  .sub-title{
+    transform: translate(25vw, -11vh);
+  }
+}
